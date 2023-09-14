@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<playground version='6.0' target-platform='ios' buildActiveScheme='true' importAppTypes='true'>
+    <pages>
+        <page name='약수의 합'/>
+        <page name='이상한 문자 만들기'/>
+        <page name='자연수 뒤집어 배열로 만들기'/>
+        <page name='정수 내림차순으로 배치하기'/>
+        <page name='정수 제곱근 판별'/>
+        <page name='시저암호'/>
+        <page name='제일 작은 수 제거하기'/>
+        <page name='짝수와 홀수'/>
+        <page name='최대공약수와 최소공배수'/>
+        <page name='콜라츠 추측'/>
+        <page name='평균 구하기'/>
+    </pages>
+</playground>
