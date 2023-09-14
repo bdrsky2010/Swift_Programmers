@@ -11,6 +11,21 @@
         <page name='짝수와 홀수'/>
         <page name='최대공약수와 최소공배수'/>
         <page name='콜라츠 추측'/>
-        <page name='평균 구하기'/>
+        <page name='평균 구하기'/>
+        <page name='하샤드 수'/>
+        <page name='핸드폰 번호 가리기'/>
+        <page name='행렬의 덧셈'/>
+        <page name='x만큼 간격이 있는 n개의 숫자'/>
+        <page name='직사각형 별찍기'/>
+        <page name='소수 만들기'/>
+        <page name='예산'/>
+        <page name='[1차] 비밀지도'/>
+        <page name='[1차] 다트게임'/>
+        <page name='K번째수'/>
+        <page name='모의고사'/>
+        <page name='체육복'/>
+        <page name='음양 더하기'/>
+        <page name='실패율'/>
+        <page name='크레인 인형뽑기 게임'/>
     </pages>
 </playground>
