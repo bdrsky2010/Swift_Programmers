@@ -27,6 +27,10 @@
         <page name='음양 더하기'/>
         <page name='실패율'/>
         <page name='크레인 인형뽑기 게임'/>
-        <page name='키패드 누르기'/>
+        <page name='키패드 누르기'/>
+        <page name='두 개 뽑아서 더하기'/>
+        <page name='3진법 뒤집기'/>
+        <page name='내적'/>
+        <page name='신규 아이디 추천'/>
     </pages>
 </playground>
