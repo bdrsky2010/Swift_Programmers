@@ -32,6 +32,7 @@
         <page name='3진법 뒤집기'/>
         <page name='내적'/>
         <page name='신규 아이디 추천'/>
-        <page name='로또의 최고 순위와 최저 순위'/>
+        <page name='약수의 개수와 덧셈 '/>
+        <page name='로또의 최고 순위와 최저 순위'/>
     </pages>
 </playground>
