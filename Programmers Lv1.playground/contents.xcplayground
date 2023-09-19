@@ -39,6 +39,7 @@
         <page name='없는 숫자 더하기'/>
         <page name='최소직사각형'/>
         <page name='나머지가 1이 되는 수 찾기'/>
-        <page name='삼총사'/>
+        <page name='삼총사'/>
+        <page name='신고 결과 받기 '/>
     </pages>
 </playground>
