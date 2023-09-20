@@ -7,7 +7,7 @@ func solution(_ survey:[String], _ choices:[Int]) -> String {
 		let type = survey[i].map { $0 }
 		switch score {
 		case 1, 2, 3:
-			result[String(type[0])] = (4 - score) + (result[String(type[0])] ?? 0)
+			result[String(type[0])] = (result[String(type[0])] ?? 0) + (4 - score)
 			break
 		case 5, 6, 7:
 			result[String(type[1])] = (result[String(type[1])] ?? 0) + (score - 4)
