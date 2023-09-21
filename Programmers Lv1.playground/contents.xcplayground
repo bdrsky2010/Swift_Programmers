@@ -41,6 +41,7 @@
         <page name='나머지가 1이 되는 수 찾기'/>
         <page name='삼총사'/>
         <page name='신고 결과 받기 '/>
-        <page name='성격 유형 검사하기'/>
+        <page name='성격 유형 검사하기'/>
+        <page name='숫자 짝꿍'/>
     </pages>
 </playground>
