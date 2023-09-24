@@ -43,6 +43,7 @@
         <page name='신고 결과 받기 '/>
         <page name='성격 유형 검사하기'/>
         <page name='소수 찾기'/>
-        <page name='숫자 짝꿍'/>
+        <page name='숫자 짝꿍'/>
+        <page name='콜라 문제'/>
     </pages>
 </playground>
