@@ -25,10 +25,8 @@ func solution(_ babbling:[String]) -> Int {
 			newStr.append(String(char))
 			beforeStr.removeFirst()
 			if babb.contains(where: { $0 == newStr }) {
-				print("contains :: \(newStr)")
 				check = true
 				if beforeStr.prefix(newStr.count) == newStr {
-					print("\(beforeStr.prefix(newStr.count)) , \(newStr)")
 					check = false
 					break
 				}
@@ -36,8 +34,6 @@ func solution(_ babbling:[String]) -> Int {
 			}
 		}
 		if check && newStr.isEmpty {
-			print("check += 1 :: ", $0)
-			print("beforeStr :: \(beforeStr)")
 			cnt += 1
 		}
 	}
