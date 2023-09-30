@@ -2,6 +2,7 @@ import UIKit
 
 func solution(_ s:String, _ n:Int) -> String {
 	return s.utf8.map {
+		print($0)
 		var ascii = Int($0)
 		switch ascii {
 		case 65...90:
