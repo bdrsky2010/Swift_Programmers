@@ -15,7 +15,7 @@ func solution(_ k:Int, _ m:Int, _ score:[Int]) -> Int {
 }
 
 // 코드 리팩토링
-func solution(_ k:Int, _ m:Int, _ score:[Int]) -> Int {
+func solution2(_ k:Int, _ m:Int, _ score:[Int]) -> Int {
 	let score: [Int] = score.sorted(by: >)
 	return stride(from: m - 1, to: score.count, by: m).reduce(0) { $0 + (score[$1] * m) }
 }
