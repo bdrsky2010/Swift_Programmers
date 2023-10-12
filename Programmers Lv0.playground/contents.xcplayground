@@ -23,6 +23,7 @@
         <page name='다음에 올 숫자'/>
         <page name='다항식 더하기'/>
         <page name='옹알이 (1)'/>
-        <page name='코드 처리하기'/>
+        <page name='코드 처리하기'/>
+        <page name='주사위 게임3'/>
     </pages>
 </playground>
