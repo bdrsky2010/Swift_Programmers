@@ -20,7 +20,7 @@ func solution(_ n:Int, _ m:Int, _ section:[Int]) -> Int {
 }
 
 // 코드 리팩토링
-func solution(_ n:Int, _ m:Int, _ section:[Int]) -> Int {
+func solution1(_ n:Int, _ m:Int, _ section:[Int]) -> Int {
 	guard !section.isEmpty else { return 0 }
 	var start: Int = section.first!
 	var cnt: Int = 0
