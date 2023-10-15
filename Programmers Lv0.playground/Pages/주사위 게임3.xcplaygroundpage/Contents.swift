@@ -24,3 +24,30 @@ func solution(_ a:Int, _ b:Int, _ c:Int, _ d:Int) -> Int {
 	}
 	return 0
 }
+
+// 코드 구현을 다시 해봤다,,
+// 코드 자체는 좀 더 깔끔해졌지만
+// 시간복잡도가 좋아진건 아니다,,
+func solution1(_ a:Int, _ b:Int, _ c:Int, _ d:Int) -> Int {
+	let arr: [Int] = [a, b, c, d]
+	var dice: [Int:Int] = [:]
+	let (p, q, r): (Int, Int, Int)
+	arr.forEach { dice[$0] = (dice[$0] ?? 0) + 1 }
+	switch dice.count {
+	case 1: return 1111 * dice.first!.key
+	case 2:
+		if dice.values.contains(where: { $0 == 2 }) {
+			(p, q) = (dice.remove(at: dice.startIndex).key, dice.first!.key)
+			return (p + q) * abs(p - q)
+		} else {
+			(p, q) = (dice.max(by: { $0.value < $1.value })!.key, dice.min(by: { $0.value < $1.value })!.key)
+			return (10 * p + q) * (10 * p + q)
+		}
+	case 3:
+		var filt: [Int:Int] = dice.filter({ $0.value != 2 })
+		(q, r) = (filt.remove(at: filt.startIndex).key, filt.first!.key)
+		return q * r
+	case 4: return dice.keys.min()!
+	default: return 0
+	}
+}
