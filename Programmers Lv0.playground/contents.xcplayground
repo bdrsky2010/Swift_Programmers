@@ -27,6 +27,7 @@
         <page name='주사위 게임3'/>
         <page name='왼쪽오른쪽'/>
         <page name='배열 조각하기'/>
-        <page name='OX퀴즈'/>
+        <page name='OX퀴즈'/>
+        <page name='배열 만들기 2'/>
     </pages>
 </playground>
