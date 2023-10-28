@@ -14,6 +14,6 @@ func solution(_ l:Int, _ r:Int) -> [Int] {
 
 func solution2(_ my_string:String, _ s:Int, _ e:Int) -> String {
 	let s = my_string.index(my_string.startIndex, offsetBy: s)
-		let e = my_string.index(my_string.startIndex, offsetBy: e)
+	let e = my_string.index(my_string.startIndex, offsetBy: e)
 	return String(my_string.prefix(s)) + String(my_string[s...e].reversed()) + String(my_string.suffix(my_string.count - (my_string.count - e - 1)))
 }
